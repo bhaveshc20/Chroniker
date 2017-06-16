@@ -6,7 +6,7 @@ var Navigation = () => {
         <div className="top-bar">
             <div className="top-bar-left">
                 <ul className="menu">
-                    <li className="menu-text"><b>React Timer</b></li>
+                    <li className="menu-text"><b>Chroniker</b></li>
 
                 </ul>
             </div>
