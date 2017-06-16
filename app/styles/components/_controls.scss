@@ -7,6 +7,18 @@
   }
   .button:first-child{
     margin-right: 1.5rem;
-
   }
+
+  .button.primary{
+    background: $nav-background;
+  }
+  .button.alert{
+    background: #8FA5DB;
+  }
+  .button.secondary{
+    background: $clock-bg-color-2;
+  }
+}
+.button{
+  background-color: $nav-background;
 }

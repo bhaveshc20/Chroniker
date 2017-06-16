@@ -1,19 +1,23 @@
 .top-bar,
 .top-bar ul {
     background-color: $nav-background;
+    padding: 0;
 }
 
 .top-bar {
     .menu-text {
       color: $nav-text-color;
+      font-size: 2rem;
+
     }
-    .menu > .menu-text > a {
-      display: inline;
-      padding: 0;
+    .menu a {
+      padding: 1rem;
+      color: #B794D6;
+      font-size: 20px;
     }
 
-  .active-link{
+  .menu .active-link{
     font-weight: bold;
-    color: $grey;
+    color: white;
   }
 }
