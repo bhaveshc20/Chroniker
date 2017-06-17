@@ -1,18 +1,18 @@
 .clock{
  align-items: center;
- background: linear-gradient(to right, $clock-bg-color-1, $clock-bg-color-2);
- border: 2px solid $clock-border-color;
+ background: radial-gradient(circle, #321A34, #261428);
+ border: 30px solid rgba(85,30,60,0.6);
  border-radius: 50%;
  display: flex;
- height: 25rem;
+ height: 30rem;
  justify-content: center;
- margin: 4rem auto;
- width: 25rem;
+ margin: 1rem -3rem;
+ width: 30rem;
 }
 
 .clock-text{
-  color: $clock-text-color;
+  color: #FF0059;
   font-size: 5rem;
-  font-weight: 300;
+  font-weight: 100;
 
 }

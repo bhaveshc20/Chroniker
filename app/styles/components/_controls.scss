@@ -1,24 +1,50 @@
 .controls{
   display: flex;
   justify-content: center;
-
+  margin-top: -15rem;
   .button {
-    padding: .75rem 3rem;
+    padding: 3.5rem 1rem;
+  }
+  .button a{
+    border-color: transparent;
   }
   .button:first-child{
-    margin-right: 1.5rem;
+    margin-right: 3rem;
   }
 
   .button.primary{
-    background: $nav-background;
+    background: transparent;
+    color: #D72553;
+
   }
   .button.alert{
-    background: #8FA5DB;
+    background: transparent;
+    color: #D72553;
+    font-weight: 100;
+    font-size: 30px;
   }
   .button.secondary{
-    background: $clock-bg-color-2;
+    background: transparent;
+    color: #621B3F;
   }
 }
 .button{
-  background-color: $nav-background;
+  background-color: transparent;
+}
+.button.expanded{
+  background-color: transparent;
+  font-weight: 100;
+  font-size: 30px;
+  color: #261428;
+
+}
+.countdown-form{
+  margin-top: -0.5rem;
+}
+[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea{
+  background-color: #261428;
+  border: transparent;
+  border-radius: 20px;
+  color: #FC2A61;
+
 }
