@@ -2,8 +2,8 @@
 
 A simple timer app using react framework.
 
-###timer
+### Timer
 ![alt text](screenshots/1.png "")
 
-###countdown
+### Countdown
 ![alt text](screenshots/2.png "")
